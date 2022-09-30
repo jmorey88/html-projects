@@ -1,0 +1,374 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* begin styles
+     
+    header1 div  */
+
+.header1 {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.firstMenuSize {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+
+ul.firstMenu {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: inherit;
+    /* float: left; */
+    
+}
+
+ul.firstMenu li {  
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: bold;
+    height: 50px;
+    
+}
+
+#w3logo {
+    /* float: left; */
+    width: 45px;
+    /* height: 40px; */
+}
+
+.upRightButt { 
+    display: flex;
+    height: 50px;
+    width: 49%;
+    justify-content: flex-end;
+    /* float: right; */
+}
+
+.upperButts {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 2%;
+}
+
+#proNew {
+    width: 50%;
+    display: flex;
+    font-size: 70%;
+    color: white;
+    background-color: #282A35;
+    border: none;
+    border-radius: 30px;
+    height: 55%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#whiteBoxNew{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 8%;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 40%;
+    margin-left: 9%;
+    height: 50%;
+}
+
+#getCert {
+    font-weight: bold;
+    font-size: 70%;
+    background-color: #FFC0C7;
+    border: none;
+    border-radius: 30px;
+    height: 55%;
+    justify-content: center;
+}
+
+#website {
+    font-weight: bold;
+    font-size: 70%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    height: 55%;
+    justify-content: center;
+}
+
+#logIn {
+    font-weight: bold;
+    font-size: 70%;
+    color: white;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 30px;
+    height: 55%;
+    justify-content: center;s
+}
+
+/* header2 div*/
+
+.header2 {
+    display: flex;
+    background-color: #282A35;
+    width: 100%;
+    height: 30px;
+}
+
+.secondMenuSize {
+    display: flex;
+    width: 65%;
+}
+
+ul.secondMenu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+
+ul.secondMenu li {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    font-size: 50%;
+    font-weight: 500;
+    color: white;
+}
+
+#cssBackground {
+    display: flex;
+    align-items: center;
+    background-color: #04aa6d;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#jqueryBackground {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.imgButtBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35%;
+}
+
+#imgHome {
+    height: 30px;
+}
+
+#img2ndMenuButt {
+    height: 28px;
+    width: 25%;
+}
+
+/* body section */
+
+.body {
+    display: flex;
+}
+
+.bodyleft {
+    display: flex;
+    background-color: #E7E9EB;
+    width: 11%;
+}
+
+.thirdMenuSize {
+    display: flex;
+    width: 100%;
+    height: 55%;
+}
+
+ul.thirdMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+ul.thirdMenu li {
+    display: flex;
+    align-items: center;
+    font-family: Verdana,sans-serif;
+    display: flex;
+    list-style: none;
+    font-size: small;
+    height: 15%;
+    width: 100%;
+}
+
+#headingMenu {
+    font-size: medium;
+    padding-top: 8%;
+    padding-bottom: 5%;
+} 
+
+#howToBackground {
+    display: flex;
+    align-items: center;
+    background-color: #04aa6d;
+    color: white;
+}
+
+/* body section */
+
+.bodycenter {
+    width: 70%;
+    margin-right: 15%;
+    border-right: 2px solid #eee;
+    height: 100%;
+}
+
+h1, h2, h4{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+h1 {
+    margin-top: 3%;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+.section {
+    font-size: small;
+    font-family: Verdana,sans-serif;
+    margin-left: 1%;
+    margin-bottom: 1%
+}
+
+.buttSection {
+    margin-top: 3%;
+    height: 10%;
+    margin-left: 1%;
+    margin-bottom: 1%
+}
+
+.buttonPrev {
+    color: white;
+    background-color: rgb(43, 157, 100);
+    border: none;
+    border-radius: 4px;
+    height: 70%;
+}
+
+.buttonNex {
+    color: white;
+    background-color: rgb(43, 157, 100);
+    border: none;
+    border-radius: 4px;
+    height: 70%;
+    margin-left: 85%;
+    width: 6%;
+}
+
+hr {
+    border: none;
+    background-color: #eee;
+    width: 100%;
+    height: .25%;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 1%
+
+}
+
+#bodyList {
+    margin-left: 3%;
+    list-style: disc;
+}
+
+.greyBox{
+    background-color: rgb(202, 202, 202);
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 1%   
+}
+
+.whiteBox{
+    border-left: solid rgb(35, 176, 35);
+    color: darkred;
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.blue{
+    color: blue;
+}
+
+.red {
+    color: red;
+}

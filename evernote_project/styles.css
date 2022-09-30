@@ -1,0 +1,481 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* evernote css */
+/* top menu */
+
+.topMenu{
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	background-color: white;
+	box-shadow: 0 2px 4px 0px rgba(0,0,0,.2);
+	width: 100%;
+	height: 75px;
+}
+
+.logoBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+}
+
+#logo {
+    width: 177px;
+}
+
+.topMenu1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+    width: 40%;
+	font-family: "Soleil",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.topMenu2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	width: 35%;
+	font-size: 16px;
+	font-family: "Soleil",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.topMenu2 li {
+	padding: 7px;
+
+
+}
+
+#download {
+	justify-content: center;
+	color: #00a82d;
+	font-size: 14px;
+	font-weight: 500;
+	border: 2px solid #00a82d;
+	background-color: white;
+	height: 40px;
+	border-radius: 4px;
+	width: 25%;
+}
+
+/* cookie footer */
+
+.cookieFooter {
+	display: flex;
+	width: 100%;
+	height: 65px;
+	bottom: 0;
+    position: fixed;
+	background-color: #222;
+}
+
+.cookiFtrTxt {
+	display: flex;
+	align-items: center;
+	width: 64%;
+	padding-left: 7%;
+	color: #eee;
+	font-family: "Soleil_Light",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.cookiFtrBut {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 15%;
+	height: 100%;
+}
+
+#cookiBut {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-family: "Soleil_Bold",Helvetica,Arial,sans-serif;
+	border-radius: 3px;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	color: #00a82d;
+	background: #fff;
+	font-weight: bold;
+}
+
+/* second menu bar */
+
+.secondMenuBox {
+	display: flex;
+	flex-direction: row;
+	padding-top: 75px;
+	width: 100%;
+	height: 175px;
+	background-color: #1a1a1a;
+}
+
+.fiftyPercBox {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 18%;
+	padding-right: 3%;
+}
+
+#fiftyPerc {
+	width: 150px;
+	height: 150px;
+}
+
+.menu2textBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	width: 50%;
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+#secMenuP {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.save50perc {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+}
+
+#save50 {
+	width: 140px;
+    height: 45px;
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 800;
+    background: white;
+    border-color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* main heading */
+
+.mainHeading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 375px;
+	width: 100%;
+}
+
+.mainHeading h1 {
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+    font-size: 56px;
+	font-weight: 500;
+}
+
+#pOne {
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 0 15%;
+    text-align: center;
+	line-height: 40px;
+}
+
+.mainHeading button {
+	background-color: #00a82d;
+	width: 300px;
+	height: 40px;
+	color: white;
+	font-family: "Soleil_Bold",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+	border: none;
+}
+
+#pTwo {
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+/* displays */
+
+.firstDisplay {
+	display: flex;
+	width: 100%;
+	height: 800px;
+	padding-left: 2%;
+}
+
+#dispImgOne {
+	width: 75%;
+	height: 97%;
+}
+
+.fstDispTxt {
+	display: flex;
+	flex-direction: column;
+	padding-top: 125px;
+	width: 28%;
+}
+
+.fstDispTxt h3 {
+	font-size: 18px;
+    letter-spacing: 1px;
+	padding-top: 20px;
+	font-weight: 600;
+	font-family: "Soleil_Bold",Helvetica,Arial,sans-serif;
+}
+
+.fstDispTxt p {
+	font-size: 16px;
+	font-family: "Soleil",Helvetica,Arial,sans-serif;
+	line-height: 150%;
+	width: 65%;
+	font-weight: 300;
+}
+
+/* display 2 */
+
+.dis2txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 175px;
+}
+
+#dis2p1 {
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+	font-size: 44px;
+	line-height: 150%;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#dis2p2 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 150%;
+	font-family: "Soleil",Helvetica,Arial,sans-serif;
+	padding-bottom: 30px;
+}
+
+.dis2img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 650px;
+}
+
+#dis2img {
+	height: 565px;
+	width: 73%;
+}
+
+/* quote section */
+
+.quoteBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 575px;
+	background-color: #f8f8f8;
+} 
+
+.quoteImg {
+	
+}
+
+#greenQuote {
+	width: 30px;
+}
+
+.quoteTxt {
+	font-size: 24px;
+    letter-spacing: .5px;
+    line-height: 1.67;
+	margin: 0 17%;
+	font-family: "Soleil",Helvetica,Arial,sans-serif;
+	text-align: center;
+	font-weight: 350;
+}
+
+#comp {
+	padding-top: 30px;
+}
+
+.buisLogos {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding-bottom: 3%;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+#forbes {
+	width: 115px
+}
+
+#inc {
+	width: 100px;
+}
+
+#the_verge {
+	width: 140px;
+}
+
+#entrepreneur {
+	width: 155px;
+}
+
+#business {
+	width: 150px;
+}	
+
+#well-good {
+	width: 150px;
+}
+
+/* diplay three */
+
+.dispThreeBox {
+	display: flex;
+	width: 100%;
+	height: 525px;
+}
+
+.txtLeftBox {
+	display: flex;
+	flex-direction: column;
+	width: 44%;
+	padding-left: 6%;
+	padding-top: 7%;
+}
+
+#iconOne {
+	width: 60px;
+}
+
+.txtLeftBox h3 {
+	font-family: "Soleil_Medium",Helvetica,Arial,sans-serif;
+	font-size: 36px;
+	line-height: 150%;
+	font-weight: 500;
+	padding-top: 15px;
+}
+
+.txtLeftBox p {
+	font-family: "Soleil",Helvetica,Arial,sans-serif;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	width: 76%;
+}
+
+.learnMoreButt {
+
+}
+
+#lrnMrBut {
+	width: 175px;
+	height: 50px;
+	color: #00a82d;
+	font-family: "Soleil_Bold",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-align: left;
+	border: none;
+	padding-top: 10px;
+	background-color: white;
+}
+
+.dispThreeImgBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+#disp3img {
+	width: 480px;
+}

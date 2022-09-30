@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Employee Interests Survey form</h1>
+        <form>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name"><br>
+        </form>
+        <form>
+            <label for="department">Enter your department:</label>
+            <input type="text" id="department" name="department"><br>
+        </form>
+        <form>
+            <label for="aboutSelf">Tell us a little about yourself:</label>
+            <input type="text"  wrap="hard" id="aboutSelf" name="aboutSelf" size="50" rows="4"><br>
+            <textarea rows="2" cols="20" wrap="hard">
+                At W3Schools you will find free Web-building tutorials.
+                </textarea>
+
+        </form>
+        <form id="exercise">
+            <p>Do you exercise at home?</p>
+            <input type="radio" id="yes" name="exercise" value="yes">
+            <lable for="yes">Yes</lable>
+            <input type="radio" id="no" name="exercise" value="no">
+            <label for="no">No</label><br>
+        </form>
+        <p class="favTopP">How do you like to read about your favorite topics?</p>
+        <form class="favTopForm">
+            <input type="checkbox" id="choice1" name="choice1" value="Books">
+            <label for="choice1">Books</label>
+            <input type="checkbox" id="choice2" name="choice2" value="OnlineRes">
+            <label for="choice2">Online resources</label>
+            <input type="checkbox" id="choice3" name="choice3" value="phoneApps">
+            <label for="choice3">Phone apps</label>
+            <input type="checkbox" id="choice4" name="choice4" value="Magazines">
+            <label for="choice4">Magazines</label>
+        </form>
+        <form class="movGen">
+            <label for="movieGenre">What genre of movie do you like?</label>
+            <select id="movieGenre" name="movieGenre">
+                <option value="comedy">comedy</option>
+                <option value="horror">horror</option>
+                <option value="romance">romance</option>
+                <option value="action">action</option>
+            </select>
+        </form>
+        <button class="submit" name="submit" value="submit" type="submit">Submit form</button>
+    </body>
+</html>
